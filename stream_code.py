@@ -1,8 +1,8 @@
 from tweepy import Stream
 from tweepy import OAuthHandler
 from tweepy.streaming import StreamListener
-from config1 import CONSUMER_KEY, CONSUMER_SECRET
-from config1 import ACCESS_TOKEN, ACCESS_TOKEN_SECRET
+from config import CONSUMER_KEY, CONSUMER_SECRET
+from config import ACCESS_TOKEN, ACCESS_TOKEN_SECRET
 from info import data
 
 # OAuth process

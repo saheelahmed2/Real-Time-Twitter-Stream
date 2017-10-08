@@ -23,13 +23,13 @@ def index():
     t = Thread()
     t.start()
     return render_template('index.html')
-    #return "hello"
 
 
 @app.route('/data')
 def stream_data():
-    
-    temp_data = {
+    '''
+    GeoJSON Format
+    {
       "type": "Feature",
       "geometry": {
         "type": "Point",
@@ -39,9 +39,14 @@ def stream_data():
         "name": "Dinagat Islands"
       }
     }
-    
+    '''
     new_data = []
     for item in data:
+        temp_data = {}
+        temp_data['geometry'] = {}
+        temp_data['properties'] = {}
+        temp_data['type'] = 'Feature'
+        temp_data['geometry']['type'] = 'Point'
         temp_data['geometry']['coordinates'] = item['coordinates']['coordinates']
         temp_data['properties']['name'] = item['text']
         new_data.append(temp_data)
@@ -56,8 +61,6 @@ def stream_data():
                 d.append(item)
         prev_list = new_data[:]
         return jsonify(d)
-        
-
 
 if __name__ == "__main__":
     app.run(debug=True, threaded=True, host="0.0.0.0")
