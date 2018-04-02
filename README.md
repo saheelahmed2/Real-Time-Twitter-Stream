@@ -38,3 +38,5 @@ pip install tweepy
 
 ## Results 
 ![App Results 1](https://github.com/7saheelahmed/Real-Time-Twitter-Stream/blob/master/Results/Tweets.png)
+![App Results 2](https://github.com/7saheelahmed/Real-Time-Twitter-Stream/blob/master/Results/Tweets1.png)
+![App Results 3](https://github.com/7saheelahmed/Real-Time-Twitter-Stream/blob/master/Results/Tweets3.png)
