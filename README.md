@@ -34,4 +34,4 @@ pip install tweepy
 >>>python app.py
 ```
 
-* Go to your [http://localhost:8080](http://localhost:8080) And that's it !!
+* Go to your [http://localhost:5000](http://localhost:8080) And that's it !!
