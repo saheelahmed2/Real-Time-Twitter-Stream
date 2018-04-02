@@ -5,9 +5,9 @@ This web app attaches to the [Twitter Streaming API ](https://developer.twitter.
 [Tweepy](http://docs.tweepy.org/en/v3.5.0/getting_started.html#introduction) that act as a communicator to Twitter API.
 
 ## Installing and running
-*Install [Flask](http://flask.pocoo.org/) a server side framework for Python.
+* Install [Flask](http://flask.pocoo.org/) a server side framework for Python.
 
-*Clone the repo 
+* Clone the repo 
 ```
 https://github.com/7saheelahmed/Real-Time-Twitter-Stream.git   
 ```
