@@ -37,4 +37,4 @@ pip install tweepy
 * Go to your [http://localhost:5000](http://localhost:8080) And that's it !!
 
 ## Results 
-![App Results 1](Real-Time-Twitter-Stream/Results/Tweets.png)
+![App Results 1](https://github.com/7saheelahmed/Real-Time-Twitter-Stream/blob/master/Results/Tweets.png)
