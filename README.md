@@ -37,7 +37,7 @@ pip install tweepy
 * Go to your [http://localhost:5000](http://localhost:8080) And that's it !!
 
 ## This is how it works >>>
-
+![Backend](https://github.com/7saheelahmed/Real-Time-Twitter-Stream/blob/master/Results/Work.png)
 
 ## Results 
 ![App Results 1](https://github.com/7saheelahmed/Real-Time-Twitter-Stream/blob/master/Results/Tweets.png)
@@ -45,9 +45,10 @@ pip install tweepy
 ![App Results 3](https://github.com/7saheelahmed/Real-Time-Twitter-Stream/blob/master/Results/Tweets3.png)
 
 ## Resources 
-* Flask
-* Twitter Streaming API
-* Tweepy
-* Leaflet Js
-* AJAX
-* Jquery
+* [Flask](http://flask.pocoo.org/)
+* [Twitter Streaming API](https://developer.twitter.com/en/docs/tutorials/consuming-streaming-data)
+* [Tweepy](http://docs.tweepy.org/en/v3.5.0/)
+* [Leaflet Js](http://leafletjs.com/)
+* [AJAX/Jquery](https://jquery.com/)
+
+
