@@ -6,4 +6,9 @@ This web app attaches to the [Twitter Streaming API ](https://developer.twitter.
 
 ## Installing and running
 Install [Flask](http://flask.pocoo.org/) a server side framework for Python.
-Clone the repo ''' https://github.com/7saheelahmed/Real-Time-Twitter-Stream.git   '''
+
+
+Clone the repo 
+''' 
+https://github.com/7saheelahmed/Real-Time-Twitter-Stream.git   
+'''
