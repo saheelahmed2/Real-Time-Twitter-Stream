@@ -22,7 +22,7 @@ https://github.com/7saheelahmed/Real-Time-Twitter-Stream.git
 pip install tweepy
 ```
 
-* Go to your flask folder open scripts and run ### activate on command line to start the server.
+* Go to your flask folder open scripts and run activate on command line to start the server.
 ```
 >>>cd flask\Scripts
 >>>activate
