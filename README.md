@@ -36,7 +36,7 @@ python app.py
 
 * Go to your [http://localhost:5000](http://localhost:8080) And that's it !!
 
-## This is how it works >>>
+## This is how it works
 ![Backend](https://github.com/7saheelahmed/Real-Time-Twitter-Stream/blob/master/Results/Work.png)
 
 ## Results 
