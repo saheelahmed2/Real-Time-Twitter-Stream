@@ -40,26 +40,31 @@ def stream_data():
       }
     }
     '''
-    new_data = []
+    geo_data = []
     for item in data:
-        temp_data = {}
-        temp_data['geometry'] = {}
-        temp_data['properties'] = {}
-        temp_data['type'] = 'Feature'
-        temp_data['geometry']['type'] = 'Point'
-        temp_data['geometry']['coordinates'] = item['coordinates']['coordinates']
-        temp_data['properties']['name'] = item['text']
-        new_data.append(temp_data)
+        geo_item = {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": item['coordinates']['coordinates']
+            },
+            "properties": {
+                "name": item["text"]
+            },
+
+        }
+        geo_data.append(geo_item)
+    
     global prev_list
     if prev_list == []:
-        prev_list = new_data[:]
-        return jsonify(new_data)
+        prev_list = geo_data[:]
+        return jsonify(geo_data)
     else:
         d = []
-        for item in new_data:
+        for item in geo_data:
             if item not in prev_list:
                 d.append(item)
-        prev_list = new_data[:]
+        prev_list = geo_data[:]
         return jsonify(d)
 
 if __name__ == "__main__":
